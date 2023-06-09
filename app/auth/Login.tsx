@@ -9,7 +9,7 @@ const Login = () => {
     <li className="list-none">
       <button
         onClick={() => signIn()}
-        className="text-sm bg-teal-600 hover:bg-teal-500 hover:text-white text-black font-semibold px-6 py-2 rounded-md"
+        className="rounded-xl bg-teal-600 px-6 py-2 text-sm font-bold text-white hover:opacity-70"
       >
         Sign In
       </button>

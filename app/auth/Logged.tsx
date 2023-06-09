@@ -17,12 +17,12 @@ const Logged = ({ image }: LoggedProps) => {
           width={56}
           height={56}
           alt="user image"
-          className="rounded-full"
+          className="rounded-full shadow-lg"
         />
       </Link>
       <button
         onClick={() => signOut()}
-        className="rounded-md bg-teal-600 px-6 py-2 text-sm font-semibold text-black hover:bg-teal-500 hover:text-white"
+        className="rounded-xl bg-teal-600 px-6 py-2 text-sm font-bold text-white hover:opacity-70"
       >
         Sign Out
       </button>
